@@ -1,0 +1,471 @@
+body {
+  margin: 0 auto;
+  background-color: #eeeeee;
+  width: 100%;
+}
+
+/*Fonts*/
+h1, h2, .stars {
+  font-family: 'Iceberg', cursive;
+  color: #575859;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+h3 {
+  font-weight: lighter;
+}
+
+h5 {
+  color: #917d7b;
+  margin-bottom: 11px;
+}
+
+p, li, h5, h3, .review {
+  font-family: sans-serif;
+}
+
+.review {
+  font-size: 12px;
+}
+
+/*Header*/
+header, #robot-banner, #bannerSlogan, #news-section {
+  max-width: 940px;
+  width: 80%;
+}
+
+header {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#robot-logo {
+  max-width: 302px;
+  min-width: 262px;
+  width: 35%;
+  max-height: 120px;
+  /*  margin: 25px 0 25px;*/
+}
+
+#robot-banner {
+  width: 100%;
+  box-shadow: 0 8px 0 0 #98999a;
+  text-align: center;
+}
+
+/*
+** Nav Styling
+*/
+nav {
+  border: 1px;
+  border-style: solid none;
+  border-color: #98999a;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+nav ul li a {
+  color: #98999a;
+  text-decoration: none;
+  padding: 22px 0;
+  width: 100%;
+  margin: 0;
+}
+
+nav ul li a:hover {
+  background: #C5110B;
+  color: #FFFFFF;
+}
+
+.navDivider {
+  border-width: thin;
+  border-style: none solid none none;
+  border-color: #98999a;
+  height: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/*
+** Main body styling
+*/
+
+/*
+**Product information
+*/
+#product-panels, #bannerSlogan, #purchase, #sim-prods {
+  border: 1px;
+  border-style: none none solid none;
+  border-color: #575859;
+  box-shadow: 0px 5px 5px -5px #575859;
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#slogan {
+  width: 80%;
+  margin: auto;
+}
+
+.product-cell {
+  width: 100%;
+  margin: 0.5rem;
+  margin-top: 3rem;
+}
+
+.product-cell h2 {
+  margin: 10px auto 10px;
+}
+
+.product-cell p, nav {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.product-cell img {
+  box-shadow: 1px 4px 5px #98999a;
+  max-width: 100%;
+}
+
+.product-cell p {
+  max-width: 100%;
+}
+
+/* news & poll section*/
+#news-section {
+  margin: 3rem auto;
+}
+
+#poll {
+  max-width: 300px;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  padding: 0 10px 10px 10px;
+}
+
+#poll ul, label {
+  list-style: none;
+  padding-left: 0;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+#radio-btn {
+  padding-left: 2rem;
+}
+
+#radio-btn label {
+  padding-left: 1rem;
+}
+
+#pollResponse {
+  margin-top: 1rem;
+}
+
+#news {
+  padding-left: 0.5rem;
+}
+
+#news p {
+  margin-bottom: 0;
+}
+
+.news-date {
+  text-align: right;
+  font-style: italic;
+  font-size: 10px;
+  margin-top: 0;
+}
+
+.red-text {
+  color: #C5110B;
+}
+
+.red-background {
+  background-color: #C5110B;
+}
+
+/*
+** Footer
+*/
+#links {
+  border-top: solid;
+  border-width: 1px;
+  border-color: #575859;
+}
+
+#links h2 {
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+#links p {
+  font-size: 14px;
+}
+
+#links {
+  background-color: #FFFFFF;
+}
+
+#social-links a {
+  font-size: 12px;
+}
+
+#social-links ul {
+  list-style: none;
+  line-height: 1.5;
+  padding-left: 0;
+}
+
+footer {
+  width: 100%;
+  padding-bottom: 5rem;
+}
+
+footer a, p {
+  color: #000000;
+  font-size: 12px;
+}
+
+.footer, #upper-footer {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#upper-footer {
+  max-width: 940px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#upper-footer h2 {
+  font-size: 28px;
+  margin: 0 auto;
+}
+
+/*
+** Product page
+*/
+#main-body {
+  width: 80%;
+  max-width: 940px;
+  margin: auto;
+}
+
+#purchase {
+  margin-top: 1.5rem;
+  padding-bottom: 2rem;
+
+}
+
+#sim-prods {
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+#prod-reviews h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#thumbnails img {
+  border: 1px;
+  border-style: solid;
+  border-color: #C5110B;
+  margin-left: 1rem;
+}
+
+#lrg-img {
+  border: 5px;
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-width: 5px;
+  max-width: 500px;
+}
+
+#buy-now {
+  padding-left: 2rem;
+}
+
+select {
+  box-sizing: border-box;
+  height: 35px;
+  width: 135px;
+}
+
+button {
+  width: 270px;
+  height: 35px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 700;
+  border-style: none;
+  margin: 0.5rem auto 1rem;
+
+}
+
+button:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.review-btn, .hide-btn {
+  height: 40px;
+  border-radius: 10px;
+  font-weight: normal;
+  width: 210px;
+  font-size: 14px;
+  margin: 1.5rem auto;
+}
+
+#share-btns {
+  text-align: right;
+  padding-right: 20px;
+}
+#share-btns p, a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #98999a;
+  margin: 0.3rem auto;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.hidden {
+  display: none;
+}
+
+#prod-reviews ul li, #review-heading {
+  border-width: 1px;
+  border-style: none none solid;
+  border-color: #98999a;
+  padding: 2rem 0;
+}
+
+#prod-reviews h2 {
+  padding: 0.5rem;
+  margin: 0;
+}
+
+.round-edge {
+  border-radius: 20%;
+}
+
+.centre-align {
+  text-align: center;
+}
+
+/*
+** Tablet Size Screens
+*/
+@media (max-width: 900px) {
+
+  /**
+  *Product Page
+  **/
+
+  #lrg-img {
+    margin: 0 auto;
+  }
+
+  #thumbnails {
+    justify-items: center;
+  }
+
+  #thumbnails img {
+    margin-left: 0;
+  }
+
+  #buy-now {
+    box-sizing: border-box;
+    margin: 1rem;
+  }
+
+
+
+  #buy-now, .share-btns {
+    text-align: left;
+  }
+
+  #buy-now select {
+    width: 160px;
+  }
+  #buy-now button {
+    width: 320px;
+  }
+
+  #share-btns {
+    float: right;
+  }
+
+}
+
+/*
+** Phone Size Screens
+*/
+@media (max-width: 450px) {
+
+  #bannerSlogan {
+    margin-bottom: 3rem;
+  }
+
+  .product-cell {
+    margin: 0;
+  }
+
+#news-section {
+  margin: 1rem auto;
+}
+
+#poll {
+  margin-top: 1rem;
+}
+
+
+.footer p {
+  padding: 0.5rem;
+}
+  /**
+  *Product Page
+  **/
+  #lrg-img {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  #thumbnails img {
+    margin: 1rem auto;
+  }
+
+  #buy-now {
+    padding-left: 0;
+    text-align: center;
+  }
+  #buy-now button {
+    width: 200px;
+  }
+  #share-btns {
+    float: none;
+  }
+}
