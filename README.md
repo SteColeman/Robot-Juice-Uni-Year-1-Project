@@ -6,6 +6,8 @@
 
  Overall i got 94% for this project. the 6% i lost was on the report for testing documentation. The only problem with my website was the "hide reviews" button does not hide the reviews on the product page and there is a slight discrepancy in the footer. As this was the biggest project i had done to date (Feburay-April 2020) i am very happy with the outcome and incredibly pleased with the result i recieved. I feel this has put me in good stead to continue my studying in September 2020.
 
+ Live link to view the finished site. https://robot-juice-uni-year-1-project.vercel.app/
+
 This is the assesment guide image provided by the university for the index page.
  ![index assesment image](assesment-guide-images/index-page.jpg)
 
